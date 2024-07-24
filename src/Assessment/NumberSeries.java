@@ -36,8 +36,10 @@ public class NumberSeries {
                 temp=arr[left];
                 arr[left]=arr[right];
                 arr[right]=temp;
-                left+=1;
-                right-=1;
+                //left+=1;
+                left++;
+                //right-=1;
+                right--;
             }
         }
 		System.out.println();

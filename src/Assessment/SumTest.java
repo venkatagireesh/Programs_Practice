@@ -23,7 +23,7 @@ public class SumTest {
 //			
 //		}
 		
-        int target = 9;
+        int target = 17;
 
         // Create a HashMap to store elements and their indices
         HashMap<Integer, Integer> map = new HashMap<>();
